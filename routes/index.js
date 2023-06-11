@@ -1,5 +1,6 @@
 const express = require('express');
-const uuidv4 = require('uuid');
+const {v4:uuidv4} = require('uuid');
+// const uuidv4 = require('uuid');
 const { User, Domain } = require('../models');
 
 const router = express.Router();
